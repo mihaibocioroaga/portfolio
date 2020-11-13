@@ -1,0 +1,86 @@
+*{
+    font-family: Orbitron, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.info{
+    font-size: 2vh;
+    position: fixed;
+    top: 35vh;
+    left: 12.5vh;
+    text-align: left;
+}
+
+.circle_graphic{
+    text-align: center;
+    position: absolute;
+    top: 12.5vh;
+    right: 20vh;
+    height: 65vh;
+    width: 65Vh;
+    border-radius: 50%;
+    border: 2vh outset black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgb(0, 0, 0));
+}
+.colors{
+    height: inherit;
+    width: inherit;
+}
+.controls{
+    position: absolute;
+    bottom: 38%;
+    left: 21%;
+}
+button{
+    outline: none;
+    position: absolute;
+    border-style: outset;
+    border-radius: 100%;
+    padding: 12vh 12vh;
+}
+button:active{
+    transform: translateY(4px);
+}
+
+.start, span{
+    font-size: 3vh;
+    position: relative;
+    padding: 1vh 2vh;
+    border-radius: 10%;
+    background-color: lightgray;
+}
+span{
+    border-style: inset;
+    background-color: darkgray;
+}
+.indicator{
+    border-radius: 100%;
+    border: 0.4vh outset darkslategray;
+    background-color: #d00000;
+    padding: 0 2vh;
+}
+#grn{
+    left: 0;
+    background-color: #4f9853;
+    border-color: green;
+    border-width: 1vh;
+}
+#red{
+    right: 0;
+    background-color: #ae3537;
+    border-color: darkred;
+    border-width: 1vh;
+}
+#blu{
+    bottom: 0;
+    left: 0;
+    background-color: #455b9b;
+    border-color: midnightblue;
+    border-width: 1vh;
+}
+#ylw{
+    bottom: 0;
+    right: 0;
+    background-color: #908c1c;
+    border-color: saddlebrown;
+    border-width: 1vh;
+}

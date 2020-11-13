@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="EN_uk">
+
+    <head>
+        <title>Simon Says</title>
+        <link rel="stylesheet" href="assignment-02.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div class="info">
+            <h1>Simon Says</h1>
+            <h2>The decades old memory game</h2>
+            <p>Repeat the sequence of flashing colors after it's been given to you.</p>
+            <p class="assignment_details">Assignment 2 - #18413532</p>
+        </div>
+
+        <div class="wrapper">
+            <div class="game">
+                <div class="circle_graphic">
+                    <div class="colors">
+                        <button class="seg" id="grn"></button>
+                        <button class="seg" id="red"></button>
+                        <button class="seg" id="blu"></button>
+                        <button class="seg" id="ylw"></button>
+                    </div>
+                    <div class="controls">
+                        <span class="high_score">0</span>
+                        <button class="start">START</button>
+                        <span class="current_score">0</span><br><br>
+                        <span class="indicator" id="led"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="assignment-02.js"></script>
+    </body>
+
+</html>

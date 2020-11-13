@@ -1,0 +1,18 @@
+{
+  "name": "mongo-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.6"
+  },
+  "devDependencies": {
+    "fakerator": "^0.3.1"
+  }
+}
